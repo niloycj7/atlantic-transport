@@ -1,0 +1,16 @@
+img.icon{
+    height: 13px;
+}
+.price{
+    font-size: 13px;
+    font-weight: 600;
+}
+.responsive{
+    display: flex;
+}
+
+@media screen and (max-width: 540px ){
+    .responsive{
+        display: inline-block !important;
+    }
+}
